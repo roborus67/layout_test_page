@@ -14,7 +14,7 @@
 ## Для старта проекта необходимо:
 
 * Клонировать проект
-> git clone https://github.com/roborus67/landing_test.git
+> git clone https://github.com/roborus67/layout_test_page.git
 
 * Запустить команду npm install в терминале. Данная команда установит все пакеты, которые указаны в файле
 package.json, а так же все их зависимости
