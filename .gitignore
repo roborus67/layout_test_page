@@ -1,0 +1,9 @@
+node_modules
+npm-debug.log
+Desktop.ini
+$RECYCLE.BIN/
+Thumbs.db
+ehthumbs.db
+build
+.vscode
+package-lock.json
