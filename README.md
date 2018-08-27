@@ -9,7 +9,7 @@
 > gulp -v
 
 * Для установки Gulp 4
-> npm install gulpjs/gulp-cli#4.0 -g
+> npm install gulpjs/gulp#4.0 --save-dev
 
 ## Для старта проекта необходимо:
 
