@@ -15,9 +15,6 @@ gulp.task('server', function() {
             baseDir: "build"
         }
     });
-
-
-
     gulp.watch('build/**/*').on('change', browserSync.reload);
 });
 

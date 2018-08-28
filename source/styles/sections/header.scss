@@ -1,0 +1,48 @@
+.header__head{
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    vertical-align: top;
+    justify-content: center;
+    height: 48px;
+    color: #7b9be0;
+    
+    &__logo{
+        margin: 0px;
+        @include centerer-x();
+        vertical-align: top;
+    }
+
+    &__title{
+        margin: 0px;
+
+        &--text-uppercase{
+            margin: 0px;
+            text-transform: uppercase;
+        }
+    }
+}
+.mail{
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 900px;
+
+    &>i{
+        font-size: 28px;
+        padding: 1px 22px;
+        padding-bottom: 3px; 
+        display: list-item;
+        color: gray;
+
+    }  
+
+    &--message-new{
+        content: "";
+        display: list-item;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background-color: #7b9be0;
+        margin-left: 32.3px;
+    }
+}

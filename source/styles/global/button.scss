@@ -1,0 +1,30 @@
+.button{
+    display: inline-block;
+    border-radius: 3px;
+
+    text-decoration: none;
+    color:#fff;
+
+
+    &.header__button{
+        background-color: #ffffff; 
+        border: 0px;
+        color: #7b9be0;
+        vertical-align: middle;
+        width: 5.2%;
+        max-width: 62px;
+        height: 100%;
+        margin-right: 1px;
+
+        &>i{
+            font-size: 25px;
+            padding: 0px;
+            margin: 0px;
+        }
+    }
+
+    &--uppercase{
+        text-transform: uppercase;
+    }
+}
+

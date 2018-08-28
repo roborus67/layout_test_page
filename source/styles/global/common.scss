@@ -1,0 +1,13 @@
+.container{
+    width: 100%;
+    margin: auto;
+
+
+    &__head{
+        min-width: 1200px;
+    }
+
+    &__main{
+        width: 81.5%;
+    }
+}
